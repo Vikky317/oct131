@@ -9,10 +9,5 @@ pipeline {
                 sh 'mvn clean package'               
             }          
         }  
-        stage('sonar') {
-            steps{
-                cat "Sonar stage"              
-            }          
-        }
-    }
+     }
 }
